@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 def main():
     file_path='books/frankenstein.txt'
 
