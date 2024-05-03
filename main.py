@@ -12,12 +12,6 @@ def main():
 
     output_report(file_path, word_count, lcd_list)
 
-    #print("--- Begin report of "+file_path +" ---")
-    #print(word_count , " words found in this document")
-    #for item in lcd_list:
-    #    print("The " , item['letter'] , " letter was found " , item['num'] , " times." )
-    #print("--- End Report of ", file_path , " ---")
-
 def open_book_file(file_path):
     with open(file_path) as f:
         return f.read()
